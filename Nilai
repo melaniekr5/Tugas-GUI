@@ -1,0 +1,34 @@
+Microsoft Windows [Version 10.0.17134.523]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\HP>python
+Python 3.7.1 (default, Dec 10 2018, 22:54:23) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def FormatNilai(nilai):
+...     if(nilai <=100 and nilai >=80):
+...             print("Nilai A")
+...     elif(nilai <80 and nilai >=70):
+...             print("Nilai B")
+...     elif(nilai <70 and nilai >=60):
+...             print("Nilai C")
+...     elif(nilai <60 and nilai >=40):
+...             print("Nilai D")
+...     elif(nilai <40 and nilai >=0):
+...             print("Nilai E")
+...     else:
+...             print("Nilai yang anda masukkan salah")
+...
+>>> FormatNilai(80)
+Nilai A
+>>> FormatNilai(120)
+Nilai yang anda masukkan salah
+>>> FormatNilai(75)
+Nilai B
+>>> FormatNilai(64)
+Nilai C
+>>> FormatNilai(46)
+Nilai D
+>>> FormatNilai(10)
+Nilai E
+>>> FormatNilai(-10)
+Nilai yang anda masukkan salah
